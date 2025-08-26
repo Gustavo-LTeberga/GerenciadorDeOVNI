@@ -16,6 +16,8 @@ namespace GerenciadorDeOVNI {
             InitializeComponent();
 
             cmbPlanet.Items.AddRange(BibliotecaOVNI.OVNI.PlanetasValidos);
+
+
         }
 
         private void btnIniciar_Click(object sender, EventArgs e) {
@@ -36,6 +38,14 @@ namespace GerenciadorDeOVNI {
                     string planetaOrigem = cmbPlanet.Text;
 
                 OVNI ovni = new OVNI(maxTripulantes,maxAbduzidos,planetaOrigem);
+
+                Gerenciador gerenciador = new Gerenciador(ovni);
+
+                Hide();
+
+                gerenciador.ShowDialog();
+
+                Show();
 
             }
 
