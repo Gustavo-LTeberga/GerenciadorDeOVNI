@@ -83,6 +83,26 @@ namespace GerenciadorDeOVNI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap e_tIconEarth {
+            get {
+                object obj = ResourceManager.GetObject("e.tIconEarth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap e_tIconEarthSemFundo {
+            get {
+                object obj = ResourceManager.GetObject("e.tIconEarthSemFundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagemIcon {
             get {
                 object obj = ResourceManager.GetObject("imagemIcon", resourceCulture);

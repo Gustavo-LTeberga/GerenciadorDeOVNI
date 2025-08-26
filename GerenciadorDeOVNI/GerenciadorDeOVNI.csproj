@@ -113,5 +113,11 @@
   <ItemGroup>
     <None Include="Resources\e.tIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e.tIconEarth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e.tIconEarthSemFundo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
